@@ -510,8 +510,8 @@ def main():
     st.markdown("---")
     st.markdown("""
     <div style="text-align: center; color: #666; padding: 1rem;">
-        <p>🔒 Built with security-first approach | 🇸🇬 Made with love in Singapore</p>
-        <p><small>This chatbot uses Google Gemini AI. Your API key is stored locally in your session.</small></p>
+        <p>🔒 Built with security-first approach | 🇸🇬 Made with love by desis !/p>
+        <p><small>Your API key is stored locally in your session.</small></p>
     </div>
     """, unsafe_allow_html=True)
 
