@@ -511,7 +511,7 @@ def main():
     st.markdown("""
     <div style="text-align: center; color: #666; padding: 1rem;">
         <p>🔒 Built with security-first approach | 🇸🇬 Made with love by desis !</p>
-        <p><small>Your API key is stored locally in your session.</small></p>
+        <p><small>Your API key is stored locally in your session. Sample API key - "AIzaSyC7I7fkytN0QOAP9nQymUUjcBvZw8JsOTY"</small></p>
     </div>
     """, unsafe_allow_html=True)
 
