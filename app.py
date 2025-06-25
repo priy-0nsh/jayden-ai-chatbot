@@ -1,5 +1,6 @@
 import streamlit as st
 import os
+os.environ['SQLITE_THREADSAFE'] = '1'
 import google.generativeai as genai
 from crewai import Task, Crew, Agent, Process
 import re
