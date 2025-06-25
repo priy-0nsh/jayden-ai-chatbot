@@ -1,6 +1,6 @@
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+import os
+os.environ["CHROMA_SERVER_AUTHN_PROVIDER"] = ""
+os.environ["CHROMA_CLIENT_AUTH_PROVIDER"] = ""
 
 import streamlit as st
 import os
