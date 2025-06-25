@@ -1,0 +1,5 @@
+streamlit
+google-generativeai
+crewai
+crewai-tools
+google-api-python-client
