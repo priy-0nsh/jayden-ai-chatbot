@@ -1,6 +1,11 @@
+pip uninstall sqlite3 pysqlite3 pysqlite3-binary -y
+pip install pysqlite3-binary
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 import streamlit as st
 import os
-os.environ['SQLITE_THREADSAFE'] = '1'
 import google.generativeai as genai
 from crewai import Task, Crew, Agent, Process
 import re
